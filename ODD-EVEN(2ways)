@@ -1,0 +1,16 @@
+n=int(input())
+res=n//2
+up_res=res*2
+if up_res==n:
+    print("even")
+else:
+    print("odd")
+
+#and
+
+n=int(input())
+m=1
+if (n&m)==0:
+    print("even")
+else:
+    print("odd")
