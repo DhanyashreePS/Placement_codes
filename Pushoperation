@@ -1,0 +1,12 @@
+def push(n):
+    top=0
+    s=[]
+    if(top==n-1):
+        print("stack overflow")
+    else:
+        ele=int(input("enter the element"))
+        top+=1
+        s.append(ele)
+while True:
+    if n:
+        push(n)
