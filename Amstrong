@@ -1,0 +1,19 @@
+n=1634
+res=0
+count=0
+flag=n
+while(flag>0):
+    rem=flag%10
+    flag=flag//10
+    count+=1
+temp=n
+if(count>0):
+    while(temp>0):
+        rem=(temp%10)**count
+        res+=rem
+        temp=temp//10
+print("count:",count)
+if(n==res):
+    print("Amstrong number")
+else:
+    print("It is not amstrong number")
